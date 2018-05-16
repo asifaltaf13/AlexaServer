@@ -1,0 +1,1 @@
+git submodule foreach git pull origin master && git add . && git commit -m "updated submodule" && git push origin master && heroku git::remote -a alexatestappfraunhofer && git push heroku master && pause
